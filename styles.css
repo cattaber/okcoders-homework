@@ -6,23 +6,49 @@ body {
 	text-align: center;
 }
 
-#indexlist {
-	color: #961d1d;
-}
 a:link {
-	color: #961d1d;
+	color: #A68890;
 }
 a:visited {
-	color: lightcoral;
+	color: #A68890;
 }
 h1 {
-	color: #961d1d;
-	background-image: url("header.png");
+	color: #FBCDD9;
+	background-image: url("header2.png");
 	padding: 1em;
 	background-position: center top;
 	background-repeat: no-repeat;
 }
-ul {
-  display:inline-block;
-  text-align: left;
+#indexlist {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #033226;}
+
+#indexlist li {
+    float: left;
+}
+
+#indexlist li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#indexlist li a:hover {
+    background-color: #A5B49E;
+}
+
+img {
+	padding: 2em;
+	float: none;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
 }
